@@ -18,6 +18,7 @@ const PORT = process.env.PORT || 5000;
 const MONGO_DB_URI = process.env.MONGO_DB_URI;
 
 const __dirname = path.resolve();
+console.log("Current directory:", __dirname);
 
 app.use(express.json());
 app.use(cookieParser());
